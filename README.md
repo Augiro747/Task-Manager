@@ -3,7 +3,7 @@ Alfa version of task manager on python3 with using ['tkinter'](https://docs.pyth
 ## Usage:
 To start using it you need:
 
-*1)Download this files and launch it.
+* 1)Download this files and launch it.
 
 If you want to write new note,you need to:
 
