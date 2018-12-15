@@ -13,13 +13,13 @@ If you want to write new note,you need to:
   
  * 4)Press 'Создание задачи' button
   
-if you want to check your note:
+If you want to check your note:
 
  * 2)Choose date from listbox
   
  * 3)Press 'Показать задачу' button
   
-if you want to delete your note:
+If you want to delete your note:
 
  * 2)Choose date from listbox
   
