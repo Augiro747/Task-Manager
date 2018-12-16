@@ -3,14 +3,15 @@ import os
 import time
 def loading():#this function clears text windows and fills listbox
     listbox1.delete(0,'end')
-    f=open("Plan.txt")
-    s=f.read()
-    while s!='':
-        s1=s[0:s.find(";")]
-        s=s[s.find(";")+1:len(s)]
-        listbox1.insert(END,s1[0:17])
-        listbox1.pack(side=LEFT,padx=15) 
-    f.close()
+    if os.path.exists(os.path.join(".","Plan.txt")):
+        f=open("Plan.txt")
+        s=f.read()
+        while s!='':
+            s1=s[0:s.find(";")]
+            s=s[s.find(";")+1:len(s)]
+            listbox1.insert(END,s1[0:17])
+            listbox1.pack(side=LEFT,padx=15) 
+        f.close()
     text1.delete(1.0, END)
     text2.delete(1.0, END)
     text3.delete(1.0, END)
